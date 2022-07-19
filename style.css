@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 /* navbar */
 .navbar{
@@ -272,7 +273,7 @@ margin-top: 8px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
        width: 100%;
-       margin-top: 20px;
+       margin-top: 35px;
     }
     /*  */
    .popular-colletion{
@@ -300,9 +301,10 @@ margin-top: 8px;
     .featured-text{   
         text-align: center;
         padding: 10px;
+        width: 100%;
     }
     .featured-img{
-        width: 370px;
+        width: 330px;
         padding: 10px;
     }
     .featured-img img{
@@ -376,7 +378,7 @@ margin-top: 8px;
     .featured{
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
+        max-width: 100%;
         padding: 10px;
     }
     .featured-text{   
